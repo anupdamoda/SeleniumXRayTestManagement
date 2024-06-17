@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  maven:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+    command: mvn clean compile test xray:import-results
+    environment:
+      - MAVEN_OPTS=-Xmx512m
