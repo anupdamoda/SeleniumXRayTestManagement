@@ -26,6 +26,7 @@ public class LoggedInPage extends BrowserDriver {
     public static void visibility_productcategory_sneakershoes() throws InterruptedException {
         String actualproductcategory_s = driver.findElement(By.xpath(productcateogry_sneakers)).getText();
         assertEquals("Sneakers",actualproductcategory_s);
+        driver.quit();
     }
 
 }
