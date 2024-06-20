@@ -2,6 +2,7 @@
 
 <p align="center">
   <b>Description:</b> This is a demo project on how to setup a <b style="background-color:lightyellow;">BDD Cucumber framework</b> with <b style="background-color:lightyellow;">Selenium-4</b> in a <b style="background-color:lightyellow;">Page Object Model Concept</b> for better reusability, maintainability and scalability. Here we are using the <b style="background-color:lightyellow;">Web driver manager</b> library which will take care of the version of the driver - and automatically matches with the google chrome version - and we need not donwload and install the web driver. This framework also integrates with <b style="background-color:lightgreen;">Xray Test Management tool</b>. The features contain the <b style="background-color:lightgreen;">annotations</b> which call the issue ids present in the Xray in order to create the <b style="background-color:lightgreen;">Test Execution Issue</b> 
+. Please note that this framework also uses <b style="background-color:lightblue;">docker</b> and this would help in <b style="background-color:lightblue;">CICD framework</b> - where these tests can be invoked with a single command and test results would automatically be created as part of the Test Run by <b style="background-color:lightblue;">importing results into the Xray </b>
 </p>
 
 ## Table of Contents
